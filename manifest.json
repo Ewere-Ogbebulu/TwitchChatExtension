@@ -1,0 +1,19 @@
+{
+"manifest_version": 2,
+"name": "Twitch Chat",
+"description": "Live Twitch chat feed from GodWorms stream",
+"version": "1.0",
+"icons": {
+    "16": "/images/icon.png",
+    "48": "/images/icon.png",
+    "128": "/images/icon.png"
+},
+"page_action":{
+    "default_icon":{
+        "16": "/images/icon.png",
+        "48": "/images/icon.png",
+        "128": "/images/icon.png"
+    }
+}
+
+}
