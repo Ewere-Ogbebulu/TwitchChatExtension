@@ -1,5 +1,5 @@
 {
-"manifest_version": 2,
+"manifest_version": 3,
 "name": "Twitch Chat",
 "description": "Live Twitch chat feed from GodWorms stream",
 "version": "1.0",
@@ -8,12 +8,9 @@
     "48": "/images/icon.png",
     "128": "/images/icon.png"
 },
-"page_action":{
-    "default_icon":{
-        "16": "/images/icon.png",
-        "48": "/images/icon.png",
-        "128": "/images/icon.png"
-    }
+"action":{
+    "default_popup": "index.html",
+    "default_title": "Chat"
 }
 
 }
